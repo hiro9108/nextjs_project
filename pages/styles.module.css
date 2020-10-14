@@ -31,3 +31,9 @@
 .Element:active {
     background-color: #eee;
 }
+
+
+/* For basic pages */
+.App {
+    text-align: center;
+  }
