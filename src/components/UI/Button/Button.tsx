@@ -5,6 +5,7 @@ import SaveIcon from '@material-ui/icons/Save';
 
 const button = (props) => (
     <Button
+        type={props.type}
         variant='contained'
         color='primary'
         size='large'

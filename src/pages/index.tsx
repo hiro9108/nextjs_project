@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Router from 'next/router';
 
 import styles from './styles.module.css';
-import Button from '../components/Button';
+import Button from '../components/UI/Button/Button';
 
 const topIndexPage: FC = () => (
     <div>

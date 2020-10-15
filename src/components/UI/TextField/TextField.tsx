@@ -4,6 +4,7 @@ import TextField from '@material-ui/core/TextField';
 
 const textField = (props) => (
     <TextField
+        name={props.name}
         variant='outlined'
         color='secondary'
         type={props.type}
