@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import styles from '../styles.module.css';
+import styles from '../../styles/styles.module.css';
 
 const golangIndexPage = () => (
     <div className={styles.App}>
