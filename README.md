@@ -14,13 +14,13 @@
 
 ## Development Environment
 
-### firebase or Heroku
+### firebase or Heroku (local: docker)
 
 ## Production Environment
 
 ### infra: AWS
 
-### CICD pipeline: Github + Github Action
+### CICD pipeline: Github + Github Actions
 
 ### Microservices Architecture: Docker + K8s
 
