@@ -5,8 +5,8 @@ import styles from '../../styles/styles.module.css';
 
 const golangIndexPage = () => (
     <div className={styles.App}>
-        <h1>Go Page</h1>
-        <p>Go back to <Link href='/'>Top Page</Link></p>
+        <h1>Go App Page</h1>
+        <Link href='/secret'><p>Go back to secret page</p></Link>
     </div>
 );
 

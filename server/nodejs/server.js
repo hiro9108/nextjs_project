@@ -32,7 +32,7 @@ app.post('/register', (req, res) => {
     if (err) {
       console.log(err);
     } else {
-      res.redirect('http://localhost:3000/');
+      res.redirect('http://localhost:3000/secret');
     }
   });
 });
