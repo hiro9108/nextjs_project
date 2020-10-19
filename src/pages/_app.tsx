@@ -5,7 +5,8 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../pages/theme';
 
-export default function MyApp(props) {
+
+const MyApp = (props) => {
     const { Component, pageProps } = props;
 
     React.useEffect(() => {
@@ -29,9 +30,11 @@ export default function MyApp(props) {
             </ThemeProvider>
         </React.Fragment>
     );
-}
+};
 
 MyApp.propTypes = {
     Component: PropTypes.elementType.isRequired,
     pageProps: PropTypes.object.isRequired,
 };
+
+export default MyApp;
